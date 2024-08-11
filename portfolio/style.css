@@ -1,0 +1,175 @@
+@media (max-width: 768px) {
+  header nav ul {
+    flex-direction: column;
+  }
+
+  #projects .project-list,
+  #skills .skills-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project,
+  .skill {
+    width: 90%;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 15px 0;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: #f4f4f4;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: larger;
+}
+
+.hero img {
+  width: 300px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+#projects .project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.project:hover {
+  transform: translateY(-10px);
+}
+
+.project img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+#skills .skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+  width: 150px;
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.skill i {
+  font-size: 2rem;
+  color: #333;
+}
+
+.skill p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.skill:hover {
+  transform: translateY(-10px);
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

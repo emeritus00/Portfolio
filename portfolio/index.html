@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home">
+      <div class="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>
+          Hello! I'm Adewale Gbadamosi, a web developer specializing in modern
+          JavaScript frameworks.
+        </p>
+        <img src="images/myphoto.jpg" alt="My Photo" />
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="project-list">
+        <div class="project">
+          <h3>E-commerce Website using React</h3>
+          <p>
+            An e-commerce website featuring product listings, detailed
+            product views, a shopping cart, and a checkout process. Implemented
+            a mock server for simulating API interactions and wrote
+            comprehensive tests to ensure all components function correctly.
+          </p>
+          <a href="https://github.com/emeritus00/ReactEcomerceWebsite" target="_blank"
+            >View on GitHub</a
+          >
+        </div>
+        <div class="project">
+          <h3>Dog Image Gallery using React</h3>
+          <p>
+            A responsive React application that enables users to explore various
+            dog breeds by dynamically fetching and displaying images using the
+            Dog CEO API, tailored to user input.
+          </p>
+          <a href="https://github.com/emeritus00/DogImageGallery.git" target="_blank"
+            >View on GitHub</a
+          >
+        </div>
+        <div class="project">
+          <h3>Small local restaurant website</h3>
+          
+          <p>
+            Developed a small website for local restaurant to enhance its online
+            presence. The site features a digital menu, online ordering
+            capabilities, and integrated payment options.
+            <a href="https://github.com/emeritus00/localRestaurant.git" target="_blank"
+              >View on GitHub</a
+            >
+          </p>
+        </div>
+
+        <div class="project">
+          <h3>Python Program for Taxi Service</h3>
+         
+          <p>
+            The program is designed with a menu-driven interface, offering
+            services such as adding new employees, computing company revenue and
+            expenses, and tracking car rentals. An Entity Relationship Diagram
+            (ERD) was initially created to structure the program. Data is stored
+            in files, and reports can be generated from the database.</p>
+            <a href="https://github.com/emeritus00/PythonTaxi-Service.git" target="_blank"
+              >View on GitHub</a
+            >
+          </p>
+        </div>
+
+        <div class="project">
+          <h3>Python program for Employee Travel Claim</h3>
+          
+          <p>
+            The program processes travel claims for salespeople returning from
+            business trips. Employees submit a Travel Claim Form, along with all
+            relevant invoices, to the main office for reimbursement after
+            completing their trip.
+          </p>
+          <a href="https://github.com/emeritus00/PythonForEmployeeTravelClaim.git" target="_blank"
+            >View on GitHub</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <div class="skill">
+          <i class="fab fa-js"></i>
+          <p>JavaScript</p>
+        </div>
+        <div class="skill">
+          <i class="fab fa-react"></i>
+          <p>React</p>
+        </div>
+        <div class="skill">
+          <i class="fab fa-css3-alt"></i>
+          <p>CSS</p>
+        </div>
+        <div class="skill">
+          <i class="fab fa-python"></i>
+          <p>Python</p>
+        </div>
+        <div class="skill">
+          <i class="fab fa-html5"></i>
+          <p>HTML</p>
+        </div>
+        <div class="skill">
+          <i class="fas fa-vector-square"></i>
+          <p>Figma</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Adewale Gbadamosi. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
